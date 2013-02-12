@@ -13,7 +13,7 @@ api.get('/'+api.get('api_version')+'/api/:resource', function(req, res) {
     var resource = req.params.resource;
 
     try {
-        var func = require('./routes/' + resource);
+        var func = require('./library/' + resource);
     } catch (e) {
         res.send({status:'1000', message:'Resource ' + resource + ' does not exist.'});
     }
