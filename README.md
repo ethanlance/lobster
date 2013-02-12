@@ -5,7 +5,7 @@ Super simple API layer build in node.js and express.
 
 Getting Started
 ====
-1. Run npm install
+1. npm install
 2. node server.js
 3. curl http://localhost:1337/v1/api/lobster
 
