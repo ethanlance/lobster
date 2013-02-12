@@ -1,6 +1,9 @@
-Lobster
+Lobster JS
 ====
+Lobster JS written by Jason Yau http://www.lobsterjs.com
 
+About
+====
 Super simple API layer build in node.js and express.
 
 Getting Started
@@ -31,3 +34,5 @@ Creating an API
 });```
 3. Test the API. 
 ```curl http://localhost:8080/v1/api/OBJECT_NAME```
+
+
