@@ -1,4 +1,4 @@
-API
+Lobster
 ====
 
 Super simple API layer build in node.js and express.
