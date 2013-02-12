@@ -13,16 +13,12 @@ Creating an API
 1. Create OBJECT_NAME.js in /library
 2. In places.js paste the following.  
 
-<code>
-module.exports = function(req, res) {
+```module.exports = function(req, res) {
     res.send({message:'hello world'});
-}); 
-</code>
+});```
 
 3. Test the API. In the commandline type: curl http://localhost:8080/v1/api/OBJECT_NAME
 
-<code>
-{
+```{
     message: "hello world"
-}
-</code>
+}```
