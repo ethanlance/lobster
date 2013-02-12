@@ -12,11 +12,11 @@ Getting Started
 Example API
 ====
 
-Request:
+Request
 ----
 http://localhost:1337/v1/api/lobster
 
-Response:
+Response
 ----
 ```{
     message: "hello world"
@@ -25,7 +25,7 @@ Response:
 Creating an API
 ====
 1. Create lobster.js in /library.
-2. Create a handler like below.
+2. Create a module with a handler.
 ```module.exports = function(req, res) {
     res.send({message:'hello world'});
 });```
